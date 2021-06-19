@@ -12,7 +12,7 @@ const useStyles = createUseStyles({
     width: '100%',
     height: '100%',
     background: ({ theme }) =>
-      `linear-gradient(to bottom left, ${theme.gradientStart}, ${theme.gradientMid}, ${theme.gradientEnd})`,
+      `linear-gradient(to bottom left, ${theme.gradientEnd}, ${theme.gradientStart})`,
     display: 'flex',
     borderRadius: ({ showForecast }) => (showForecast ? [[5, 5, 0, 0]] : 5),
   },
